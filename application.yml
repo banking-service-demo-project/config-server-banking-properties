@@ -1,1 +1,12 @@
+spring:
+  application:
+    name: banking-config-server-default
 
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:9091/eureka
+  instance:
+    prefer-ip-address: true
