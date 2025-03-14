@@ -1,7 +1,3 @@
-spring:
-  application:
-    name: banking-config-server-dev
-
 eureka:
   client:
     fetch-registry: true
